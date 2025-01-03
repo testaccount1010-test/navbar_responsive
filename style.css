@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#navbar{
+    background-color: #1E1F24;
+    border-radius: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 60px;
+    padding-top: 10px;
+    width: 80%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5F656D;
+}
+
+.icon:hover{
+    color: #5094E5;
+    border-radius: 50px;
+    background-color: #314E70;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media(max-width: 1366px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 100vh;
+        padding-top: 0px;
+        margin: 0px;
+    }
+    
+
+    #container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    #navbar{
+        background-color: #1E1F24;
+        border-radius: 16px 16px 0 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 80px;
+        padding-top: 15px;
+        width: 100%;
+
+    }
+
+    .icon{
+        width: 10%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        color: #5F656D;
+        margin-left: 60px;
+    }
+    .icon p{
+        margin-left: -16%;
+    }
+
+    .icon:hover{
+        background-color: none;
+        color: #5094E5;
+        display: block;
+    }
+}
